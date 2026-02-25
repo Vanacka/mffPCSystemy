@@ -3,4 +3,5 @@ project(mffPCSystemy)
 
 set(CMAKE_CXX_STANDARD 26)
 
-add_executable(mffPCSystemy ceplomeris.cpp)
+add_executable(mffPCSystemy ceplomeris.cpp
+        temps.h)
